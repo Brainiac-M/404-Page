@@ -1,0 +1,111 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     color: #8D8686;
+     background-color: #000000fa;
+ }
+ 
+ #whoops {
+     padding: 5px;
+     font-size: 25px;
+     color: #e43a3a;
+     margin-bottom: 15px;
+ }
+ 
+ #description {
+     font-size: larger;
+ }
+ 
+ #pick {
+     color: #e43a3a;
+     font-weight: 900;
+     text-align: center;
+     font-size: 20px;
+     margin-bottom: 10px;
+ }
+ 
+ .top-corner {
+     margin-left: 70px;
+ }
+ 
+ #centered {
+     text-align: center;
+     font-size: larger;
+     padding: 20px;
+     margin-bottom: 10px;
+ }
+ 
+ img {
+     display: block;
+     position: relative;
+     left: 250px;
+     width: 1000px;
+     height: 700px;
+     margin-bottom: 50px;
+ }
+ 
+ div {
+     margin-bottom: 50px;
+ }
+ 
+ div ul {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ div li {
+     list-style: none;
+ }
+ 
+ div a {
+     color: #fff;
+     background-color: #e43a3a;
+     font-size: larger;
+     font-weight: 700;
+     padding: 9px;
+     border-radius: 3px;
+ }
+ 
+ div a:hover {
+     background-color: #000000fa;
+     color: #e43a3a;
+     transition: ease-in 0.3s;
+     border: 1px solid #e43a3a;
+     cursor: pointer;
+ }
+ 
+ #awwal {
+     margin-left: 50px;
+ }
+ 
+ #amitabh {
+     margin-right: 40px;
+ }
+ 
+ #mood {
+     text-align: center;
+     font-size: larger;
+     margin-bottom: 30px;
+ }
+ 
+ #return {
+     text-align: center;
+     margin-bottom: 30px;
+     font-size: larger;
+ }
+ 
+ #return a {
+     color: #e43a3a;
+     text-decoration: none;
+     font-weight: 700;
+ }
+ 
+ #return a:hover {
+     color: #8D8686;
+     transition: ease-in 0.3s;
+ }
